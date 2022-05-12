@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\GokhanAltinkilit\\source\\repos\\TaksimetreAPI\\TaksimetreAPI\\TaksimetreAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GokhanAltinkilit\\source\\repos\\TaksimetreAPI\\TaksimetreAPI\\TaksimetreAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GokhanAltinkilit\\source\\repos\\TaksimetreAPI\\TaksimetreAPI\\TaksimetreAPI.csproj",
+        "projectName": "TaksimetreAPI",
+        "projectPath": "C:\\Users\\GokhanAltinkilit\\source\\repos\\TaksimetreAPI\\TaksimetreAPI\\TaksimetreAPI.csproj",
+        "packagesPath": "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GokhanAltinkilit\\source\\repos\\TaksimetreAPI\\TaksimetreAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GokhanAltinkilit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://definexappsrv.westeurope.cloudapp.azure.com:9080/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.com/api/v4/projects/33277437/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

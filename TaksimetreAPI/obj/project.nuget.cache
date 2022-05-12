@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dY1DJzK3ZTy0JgpVc43u928ZGSUFAMub4nOUwt04dL0MTlE1Sp6s6Wd8Ht8tDKnqn5M/68v3bbkSL2GQ98xA6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GokhanAltinkilit\\source\\repos\\TaksimetreAPI\\TaksimetreAPI\\Taksimeter.RestApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
