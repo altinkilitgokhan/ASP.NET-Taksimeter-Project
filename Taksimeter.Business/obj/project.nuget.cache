@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OTgRmCiaY6pk8KwH14Yh2pkjUgWF3oydw8Z0weZFtkv/qh9PYUEMOd9cxVIQAV+vaWaT8I8tCtG0dmeRv0iHMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GokhanAltinkilit\\source\\repos\\TaksimetreAPI\\ASP.NET-Taksimeter-Project\\Taksimeter.Business\\Taksimeter.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
