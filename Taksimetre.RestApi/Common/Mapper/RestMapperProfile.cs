@@ -12,6 +12,7 @@ namespace Taksimeter.RestApi.Common.Mapper
         {
             CreateMap<TaksimeterPriceRequestModel, TaksimeterPriceBusinessRequestModel>();
             CreateMap<TaksimeterPriceBusinessResponseModel, TaksimeterPriceResponseModel>();
+            CreateMap<BaseBusinessResponseContainer<TaksimeterPriceBusinessResponseModel>, BaseRestResponseContainer<TaksimeterPriceResponseModel>>();
         }
     }
 }

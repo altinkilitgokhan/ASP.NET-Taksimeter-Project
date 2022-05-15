@@ -31,18 +31,9 @@ namespace Taksimeter.RestApi.Controllers
             BaseRestResponseContainer<TaksimeterPriceResponseModel> response = new BaseRestResponseContainer<TaksimeterPriceResponseModel>();
             TaksimeterPriceBusinessRequestModel reqBusiness = _mapper.Map<TaksimeterPriceRequestModel, TaksimeterPriceBusinessRequestModel>(request);
 
-            TaksimeterPriceBusinessResponseModel businessResponse = _priceCalculationService.CalculatedPrice(reqBusiness);
+            BaseBusinessResponseContainer<TaksimeterPriceBusinessResponseModel> businessResponse = _priceCalculationService.CalculatedPrice(reqBusiness);
 
-            if (businessResponse != null)
-            {
-                response.IsSucceed = true;
-                response.Response = _mapper.Map<TaksimeterPriceBusinessResponseModel, TaksimeterPriceResponseModel>(businessResponse);
-            } 
-            else
-            {
-                response.IsSucceed = false;
-                response.ErrorMessage = "Response return null";
-            }
+            response = _mapper.Map<BaseBusinessResponseContainer<TaksimeterPriceBusinessResponseModel>, BaseRestResponseContainer<TaksimeterPriceResponseModel>>(businessResponse);
 
 
             return Ok(response);

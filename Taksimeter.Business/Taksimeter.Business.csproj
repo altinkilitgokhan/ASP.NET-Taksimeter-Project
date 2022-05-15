@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Taksimeter.Common\Taksimeter.Common.csproj" />
+    <ProjectReference Include="..\Taksimeter.DataAccess\Taksimeter.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

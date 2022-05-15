@@ -7,3 +7,4 @@ C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.csproj.CoreCompileInputs.cache
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.dll
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.pdb
+C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.csproj.AssemblyReference.cache

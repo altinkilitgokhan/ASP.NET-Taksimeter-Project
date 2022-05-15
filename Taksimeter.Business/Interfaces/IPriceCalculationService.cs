@@ -5,6 +5,6 @@ namespace Taksimeter.Business.Interfaces
 {
     public interface IPriceCalculationService
     {
-        TaksimeterPriceBusinessResponseModel CalculatedPrice(TaksimeterPriceBusinessRequestModel request);
+        BaseBusinessResponseContainer<TaksimeterPriceBusinessResponseModel> CalculatedPrice(TaksimeterPriceBusinessRequestModel request);
     }
 }
