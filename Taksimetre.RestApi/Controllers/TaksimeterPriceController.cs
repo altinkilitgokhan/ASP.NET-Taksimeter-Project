@@ -7,10 +7,12 @@ using Taksimeter.Business.Interfaces;
 using AutoMapper;
 using Taksimeter.Business.Models.Request;
 using Taksimeter.Business.Models.Response;
+using Taksimeter.RestApi.Common.Filter;
 
 namespace Taksimeter.RestApi.Controllers
 {
     [ApiController]
+    [TypeFilter(typeof(ExceptionFilter))]
     [Route("Taksimeter/[controller]")]
     public class TaksimeterPriceController : ControllerBase
     {

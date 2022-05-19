@@ -27,6 +27,9 @@ namespace Taksimeter.Business.Services
                     if (totalPrice < minPrice)
                     {
                         totalPrice = minPrice;
+                        int b = 0;
+                        int c = 0;
+                        int a = b / c;
                     }
 
                     businessResponse.Price = String.Format("{0:0.00}", totalPrice);

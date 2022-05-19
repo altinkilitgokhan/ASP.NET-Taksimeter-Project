@@ -6,6 +6,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Taksimeter.Business.Interfaces;
 using Taksimeter.Business.Services;
+using Taksimeter.RestApi.Common.Filter;
+using Taksimeter.RestApi.Common.Handlers;
 using Taksimeter.RestApi.Common.Mapper;
 
 namespace Taksimeter.RestApi
@@ -28,6 +30,7 @@ namespace Taksimeter.RestApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Taksimeter.RestApi", Version = "v1" });
             });
+            services.AddScoped<ExceptionFilter>();
 
             services.AddTransient<IPriceCalculationService, PriceCalculationService>();
             services.AddAutoMapper(typeof(RestMapperProfile));
@@ -44,6 +47,8 @@ namespace Taksimeter.RestApi
             }
 
             app.UseHttpsRedirection();
+
+            app.UseMiddleware<ExceptionHandlerMiddleware>();
 
             app.UseRouting();
 
