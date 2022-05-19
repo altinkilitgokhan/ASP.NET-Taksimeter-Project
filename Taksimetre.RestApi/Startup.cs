@@ -4,7 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using Serilog;
 using Taksimeter.Business.Interfaces;
 using Taksimeter.Business.Services;
 using Taksimeter.RestApi.Common.Filter;
@@ -27,12 +26,11 @@ namespace Taksimeter.RestApi
         {
 
             services.AddControllers();
-            services.AddLogging();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Taksimeter.RestApi", Version = "v1" });
             });
-            services.AddTransient<ExceptionFilter>();
+            services.AddScoped<ExceptionFilter>();
 
             services.AddTransient<IPriceCalculationService, PriceCalculationService>();
             services.AddAutoMapper(typeof(RestMapperProfile));
@@ -51,8 +49,6 @@ namespace Taksimeter.RestApi
             app.UseHttpsRedirection();
 
             app.UseMiddleware<ExceptionHandlerMiddleware>();
-
-            app.UseSerilogRequestLogging();
 
             app.UseRouting();
 
