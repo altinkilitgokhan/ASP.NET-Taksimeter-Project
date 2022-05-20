@@ -1,2 +1,2 @@
-# ASP.NET Taksimeter Project
+# ASP.NET Core Taksimeter Project
  
