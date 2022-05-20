@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
 using Taksimeter.RestApi.Models.Request;
 using Taksimeter.RestApi.Models.Response;
 using Taksimeter.Business.Interfaces;

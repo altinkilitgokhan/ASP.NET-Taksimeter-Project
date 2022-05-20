@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2PRh2+F0YisFayw/NBbXEWwxaUoewrx999UFajRcHOyJBjYs5lcx18bvGOR/Ap304COc4kLyCbISre3CPDbyww==",
+  "dgSpecHash": "3vCQ6KbT4aM5C2shpzzvcLSnZGkxLZgRg8V0K0hDDXTXkLN4Z5lsYCRfP2CkXcSBGes0dIhc7Qe03+PY6U0KeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\GokhanAltinkilit\\source\\repos\\TaksimetreAPI\\ASP.NET-Taksimeter-Project\\Taksimetre.RestApi\\Taksimeter.RestApi.csproj",
   "expectedPackageFiles": [
@@ -21,13 +21,26 @@
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.18\\microsoft.extensions.configuration.binder.3.1.18.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.18\\microsoft.extensions.dependencyinjection.3.1.18.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.0.0\\microsoft.extensions.dependencymodel.3.0.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.8\\microsoft.extensions.fileproviders.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.8\\microsoft.extensions.hosting.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.logging\\3.1.18\\microsoft.extensions.logging.3.1.18.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.18\\microsoft.extensions.logging.abstractions.3.1.18.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\2.0.0\\microsoft.extensions.options.configurationextensions.2.0.0.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\oracle.entityframeworkcore\\3.19.130\\oracle.entityframeworkcore.3.19.130.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\oracle.manageddataaccess.core\\2.19.130\\oracle.manageddataaccess.core.2.19.130.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\serilog.aspnetcore\\5.0.0\\serilog.aspnetcore.5.0.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\serilog.extensions.hosting\\4.2.0\\serilog.extensions.hosting.4.2.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\serilog.extensions.logging\\3.1.0\\serilog.extensions.logging.3.1.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\serilog.settings.configuration\\3.3.0\\serilog.settings.configuration.3.3.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
@@ -35,7 +48,8 @@
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\GokhanAltinkilit\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

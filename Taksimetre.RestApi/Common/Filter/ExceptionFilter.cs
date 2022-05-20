@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Net;
 using Taksimeter.RestApi.Models.Response;
@@ -9,12 +10,14 @@ namespace Taksimeter.RestApi.Common.Filter
 {
     public class ExceptionFilter : IExceptionFilter
     {
-        public ExceptionFilter()
+        private readonly ILogger<ExceptionFilter> _logger;
+        public ExceptionFilter(ILogger<ExceptionFilter> logger)
         {
-
+            _logger = logger;
         }
         public void OnException(ExceptionContext context)
         {
+            ControllerActionDescriptor controllerActionDescriptor = context.ActionDescriptor as ControllerActionDescriptor;
             int httpStatus;
             if (context.Exception is ArgumentNullException)
             {
@@ -37,6 +40,8 @@ namespace Taksimeter.RestApi.Common.Filter
             };
 
             context.Result = result;
+      
+            _logger.LogInformation("Status Code : {statusCode} -- Exception Message : {excMsg} -- Method Name : {methodName}", httpStatus, context.Exception.Message.ToString(), controllerActionDescriptor.MethodInfo.Name);
         }
     }
 }

@@ -1,0 +1,25 @@
+2022-05-20 22:03:36.987 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-20 22:03:37.118 +03:00 [INF] Hosting environment: Development
+2022-05-20 22:03:37.120 +03:00 [INF] Content root path: C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimetre.RestApi
+2022-05-20 22:03:54.722 +03:00 [INF] 123asdasd
+2022-05-20 22:03:54.747 +03:00 [ERR] HTTP POST /Taksimeter/TaksimeterPrice/GetTaksimeterPrice responded 500 in 3218.4277 ms
+2022-05-20 22:06:57.051 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-20 22:06:57.156 +03:00 [INF] Hosting environment: Development
+2022-05-20 22:06:57.159 +03:00 [INF] Content root path: C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimetre.RestApi
+2022-05-20 22:07:07.995 +03:00 [INF] 123asdasd
+2022-05-20 22:07:08.016 +03:00 [ERR] HTTP POST /Taksimeter/TaksimeterPrice/GetTaksimeterPrice responded 500 in 4170.5153 ms
+2022-05-20 22:17:22.365 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-20 22:17:22.422 +03:00 [INF] Hosting environment: Development
+2022-05-20 22:17:22.424 +03:00 [INF] Content root path: C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimetre.RestApi
+2022-05-20 22:17:39.113 +03:00 [INF] 123asdasd
+2022-05-20 22:17:39.126 +03:00 [ERR] HTTP POST /Taksimeter/TaksimeterPrice/GetTaksimeterPrice responded 500 in 2992.5090 ms
+2022-05-20 22:23:58.409 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-20 22:23:58.474 +03:00 [INF] Hosting environment: Development
+2022-05-20 22:23:58.476 +03:00 [INF] Content root path: C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimetre.RestApi
+2022-05-20 22:24:07.287 +03:00 [INF] Status Code : 500 -- Exception Message : asd
+2022-05-20 22:24:07.303 +03:00 [ERR] HTTP POST /Taksimeter/TaksimeterPrice/GetTaksimeterPrice responded 500 in 2297.0625 ms
+2022-05-20 22:26:16.732 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-20 22:26:16.797 +03:00 [INF] Hosting environment: Development
+2022-05-20 22:26:16.798 +03:00 [INF] Content root path: C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimetre.RestApi
+2022-05-20 22:26:42.265 +03:00 [INF] Status Code : 500 -- Exception Message : asd -- Method Name : GetTaksimeterPrice
+2022-05-20 22:26:42.287 +03:00 [ERR] HTTP POST /Taksimeter/TaksimeterPrice/GetTaksimeterPrice responded 500 in 16752.3612 ms

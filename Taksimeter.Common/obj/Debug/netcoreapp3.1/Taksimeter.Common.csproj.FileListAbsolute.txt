@@ -1,10 +1,10 @@
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\bin\Debug\netcoreapp3.1\Taksimeter.Common.deps.json
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\bin\Debug\netcoreapp3.1\Taksimeter.Common.dll
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\bin\Debug\netcoreapp3.1\Taksimeter.Common.pdb
+C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.csproj.AssemblyReference.cache
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.AssemblyInfoInputs.cache
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.AssemblyInfo.cs
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.csproj.CoreCompileInputs.cache
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.dll
 C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.pdb
-C:\Users\GokhanAltinkilit\source\repos\TaksimetreAPI\ASP.NET-Taksimeter-Project\Taksimeter.Common\obj\Debug\netcoreapp3.1\Taksimeter.Common.csproj.AssemblyReference.cache
